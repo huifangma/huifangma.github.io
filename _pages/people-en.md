@@ -12,7 +12,7 @@ lang_switch_url: /zh/people/
   <p class="lab-members-kicker">INTELLIGENT DATA AND SCIENTIFIC COMPUTING LAB</p>
   <h1>Lab Members</h1>
   <p class="lab-members-intro">We study intelligent computing for graph data and its applications in science, education, and industry.</p>
-  <p class="lab-members-photo-note">All student portraits are virtual examples and can be replaced with actual photos later.</p>
+  <p class="lab-members-photo-note">Members with provided portraits show their photos; the remaining portraits are virtual examples.</p>
 
   <section class="lab-members-section" aria-labelledby="faculty-heading">
     <h2 id="faculty-heading">🧭 Faculty</h2>
