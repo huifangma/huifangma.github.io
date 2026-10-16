@@ -1,0 +1,24 @@
+{% assign is_english = false %}
+{% if page.lang == 'en' %}{% assign is_english = true %}{% endif %}
+<div class="publications">
+  {% for category in site.data.publications.categories %}
+  <section class="publication-group" aria-labelledby="{{ category.id }}">
+    <h2 id="{{ category.id }}"><span aria-hidden="true">{{ category.icon }}</span> {% if is_english %}{{ category.name_en }}{% else %}{{ category.name_zh }}{% endif %}</h2>
+    {% for paper in category.papers %}
+    {% if paper.image != empty %}
+    <div id="{{ paper.id }}" class="paper-box publication-featured">
+      <div class="paper-box-image"><div class="publication-image-wrap"><div class="badge">{{ paper.venue | escape }} {{ paper.year }}</div><img src="{{ paper.image | relative_url }}" alt="{% if is_english %}Framework of {{ paper.title_en | escape }}{% else %}{{ paper.title_zh | escape }}的框架图{% endif %}" loading="lazy"></div></div>
+      <div class="paper-box-text">{% include publication-entry.html %}</div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <ul class="publication-list">
+      {% for paper in category.papers %}
+      {% if paper.image == empty %}
+      <li id="{{ paper.id }}" class="publication-item"><span class="publication-badge">{{ paper.venue | escape }} {{ paper.year }}</span> {% include publication-entry.html %}</li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

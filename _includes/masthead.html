@@ -4,10 +4,25 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% if page.lang == "en" %}
+            {% assign nav_links = site.data.navigation.en %}
+            {% assign home_url = "/" %}
+            {% assign home_label = "Huifang Ma" %}
+          {% else %}
+            {% assign nav_links = site.data.navigation.zh %}
+            {% assign home_url = "/zh/" %}
+            {% assign home_label = "马慧芳" %}
+          {% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_url | relative_url }}">{{ home_label }}</a></li>
+          {% if page.lang == "en" %}
+            <li class="masthead__menu-item language-switch"><a href="{{ '/zh/' | relative_url }}" lang="zh-CN">CN</a></li>
+          {% else %}
+            <li class="masthead__menu-item language-switch"><a href="{{ '/' | relative_url }}" lang="en">EN</a></li>
+          {% endif %}
+          {% for link in nav_links %}
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
           {% endfor %}
+
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

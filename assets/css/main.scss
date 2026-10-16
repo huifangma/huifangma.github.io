@@ -107,3 +107,58 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.language-switch a {
+    display: inline-block;
+    padding: .2rem .65rem;
+    border: 1px solid #2f5f55;
+    border-radius: 999px;
+    color: #2f5f55 !important;
+    font-size: .78em;
+    font-weight: 700;
+    letter-spacing: .04em;
+    line-height: 1.35;
+}
+
+.language-switch a:hover {
+    background: #2f5f55;
+    color: #fff !important;
+}
+
+
+/* Publications use the original paper-box and compact bullet-list template. */
+.publication-group {
+  margin-bottom: 2.2em;
+  h2 { margin: 1.6em 0 1em; border-bottom: 0; font-size: 1.2em; scroll-margin-top: 5rem; }
+}
+.publication-list {
+  list-style: disc;
+  padding-left: 1.8em;
+  margin: .8em 0;
+  .publication-item { padding: 0; margin-bottom: .55em; line-height: 1.7; scroll-margin-top: 5rem; }
+}
+.publications {
+  .publication-title { color: #224b8d; text-decoration: underline; font-weight: 500; }
+  .publication-citation { color: #555b61; font-size: .9em; }
+  .publication-oral { color: #e00000; }
+  .publication-badge { display: inline-block; padding: 0 .35em; background: #00369f; color: white; font-size: .65em; font-weight: 700; line-height: 1.4; vertical-align: .12em; white-space: nowrap; }
+  .publication-featured {
+    margin-bottom: 1em;
+    .publication-image-wrap { position: relative; width: 100%; }
+    .paper-box-image img { width: 100%; height: auto; object-fit: contain; box-shadow: 3px 3px 6px #888; }
+    .paper-box-text { line-height: 1.7; }
+    .badge { z-index: 1; }
+  }
+}
+
+.page__content .institution-icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  margin: 0 .3em 0 0;
+  vertical-align: -.25em;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}

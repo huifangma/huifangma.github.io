@@ -1,0 +1,38 @@
+{% assign admissions = site.data.admissions %}
+{% if page.lang == 'en' %}
+<p><strong>For the {{ admissions.year }} intake, I expect to recruit {{ admissions.masters }} master's students and {{ admissions.phd }} Ph.D. student.</strong> Final places are subject to the university's official admissions announcements.</p>
+<p>Motivated students are welcome to join our group to explore artificial intelligence and data science. We support each student's long-term academic development through research, problem solving, and collaboration.</p>
+<h3>Background and core skills</h3>
+<ul>
+  <li>Applicants from all disciplines are welcome. Computer science, mathematics, and information-related backgrounds are particularly relevant.</li>
+  <li>Solid mathematical modeling skills, good English reading and writing skills, and the ability to implement algorithms independently.</li>
+  <li>Interdisciplinary applicants with these core skills are encouraged to apply.</li>
+</ul>
+<h3>Research directions</h3>
+<ul>
+  <li>Machine learning and pattern recognition.</li>
+  <li>Big data analytics and knowledge discovery.</li>
+  <li>Intelligent systems and algorithm innovation.</li>
+</ul>
+<p>These directions span foundational AI research and practical applications. Prospective students are encouraged to explore relevant MOOCs and academic conference talks.</p>
+<h3>What we value</h3>
+<p>Curiosity and a sustained interest in research; initiative and perseverance in tackling challenging problems; independent problem solving, collaborative innovation, and clear career goals.</p>
+{% else %}
+<p><strong>{{ admissions.year }} 年预计招收硕士研究生 {{ admissions.masters }} 名、博士研究生 {{ admissions.phd }} 名。</strong>最终招生名额以学校正式招生通知为准。</p>
+<p>诚邀优秀学子加入课题组，共同探索人工智能与数据科学领域的前沿课题。课题组重视每位成员的长期学术发展，期待与你一起在提出问题、解决问题和团队协作中成长。</p>
+<h3>专业背景与基础能力</h3>
+<ul>
+  <li>学科背景不限，计算机、数学、信息类相关专业申请者具有匹配优势。</li>
+  <li>具备扎实的数学建模能力、良好的英语读写基础，以及自主编程实现能力。</li>
+  <li>欢迎具备上述核心素养的跨学科申请者。</li>
+</ul>
+<h3>招生方向</h3>
+<ul>
+  <li>机器学习与模式识别。</li>
+  <li>大数据分析与知识挖掘。</li>
+  <li>智能系统与算法创新。</li>
+</ul>
+<p>聚焦人工智能基础理论与产业应用，建议通过 MOOC、学术会议报告等渠道初步了解领域动态。</p>
+<h3>对同学的期望</h3>
+<p>对科研保持好奇心与持续兴趣，享受提出问题、解决问题的过程；兼具开拓精神与坚韧品格，能够独立思考、协同创新，并有清晰的职业规划。</p>
+{% endif %}

@@ -16,8 +16,6 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
@@ -25,3 +23,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
 end
+
+# Required for local preview on Windows with Ruby 3.
+gem "tzinfo-data", "1.2026.5"
+gem "webrick", "~> 1.8"
