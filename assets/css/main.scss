@@ -147,6 +147,7 @@ html { scroll-behavior: smooth; }
   .publication-title { color: #224b8d; text-decoration: underline; font-weight: 500; }
   .publication-oral { color: #e00000; }
   .publication-badge { display: inline-block; padding: 0 .35em; background: #00369f; color: white; font-size: .65em; font-weight: 700; line-height: 1.4; vertical-align: .12em; white-space: nowrap; }
+  .publication-metrics { display: inline-block; margin-left: .35em; padding: 0 .4em; border-radius: .25em; background: #eef2f7; color: #46566d; font-size: .75em; line-height: 1.6; }
   .publication-featured {
     margin-bottom: 1em;
     .publication-image-wrap { position: relative; width: 100%; }

@@ -1,155 +1,9 @@
 {
   "categories": [
     {
-      "id": "cognitive-diagnosis",
-      "name_zh": "认知诊断",
-      "name_en": "Cognitive Diagnosis",
-      "papers": [
-        {
-          "id": "cognitive-diagnosis-01",
-          "title_en": "Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing",
-          "title_zh": "面向知识追踪的多粒度集成交互图建模",
-          "citation": "Knowledge-Based Systems(KBS), 2025, 259, 112834",
-          "year": "2025",
-          "image": "",
-          "url": "https://doi.org/10.1016/j.knosys.2024.112834",
-          "oral": false,
-          "venue": "KBS",
-          "authors": "Jing Wang, Huifang Ma, Mengyuan Zhang, Lei Zhang, Liang Chang",
-          "project_url": "",
-          "code_url": "",
-          "author_names": [
-            "Jing Wang",
-            "Huifang Ma",
-            "Mengyuan Zhang",
-            "Lei Zhang",
-            "Liang Chang"
-          ],
-          "author_source": "https://api.crossref.org/works/10.1016/j.knosys.2024.112834",
-          "doi": "10.1016/j.knosys.2024.112834"
-        },
-        {
-          "id": "cognitive-diagnosis-02",
-          "title_en": "Pretraining Question Embeddings for Improving Knowledge Tracing with Self-supervised Co-contrastive Learning",
-          "title_zh": "通过自监督协同对比学习预训练试题嵌入以改进知识追踪",
-          "citation": "ACM Transactions on Knowledge Discovery from Data(TKDD), 2024,18 (4), 1-20",
-          "year": "2024",
-          "image": "",
-          "url": "https://doi.org/10.1145/3638055",
-          "oral": false,
-          "venue": "TKDD",
-          "authors": "Wentao Wang, Huifang Ma, Yan Zhao, Zhixin Li",
-          "project_url": "",
-          "code_url": "",
-          "author_names": [
-            "Wentao Wang",
-            "Huifang Ma",
-            "Yan Zhao",
-            "Zhixin Li"
-          ],
-          "author_source": "https://api.crossref.org/works/10.1145/3638055",
-          "doi": "10.1145/3638055"
-        },
-        {
-          "id": "cognitive-diagnosis-03",
-          "title_en": "Question-response Representation with Dual-level Contrastive Learning for Improving Knowledge Tracing",
-          "title_zh": "用于改进知识追踪的双层对比学习试题—作答表征",
-          "citation": "Information Sciences(INS). 2024, 631,91-107",
-          "year": "2024",
-          "image": "",
-          "url": "https://doi.org/10.1016/j.ins.2023.120032",
-          "oral": false,
-          "venue": "INS",
-          "authors": "Yan Zhao, Huifang Ma, Jing Wang, Xiangchun He, Liang Chang",
-          "project_url": "",
-          "code_url": "",
-          "author_names": [
-            "Yan Zhao",
-            "Huifang Ma",
-            "Jing Wang",
-            "Xiangchun He",
-            "Liang Chang"
-          ],
-          "author_source": "https://api.crossref.org/works/10.1016/j.ins.2023.120032",
-          "doi": "10.1016/j.ins.2023.120032"
-        },
-        {
-          "id": "cognitive-diagnosis-04",
-          "title_en": "Exploiting Multiple Question Factors for Knowledge Tracing",
-          "title_zh": "利用多种试题因素进行知识追踪",
-          "citation": "Expert Systems with Applications(ESWA).2023, 223, 119786",
-          "year": "2023",
-          "image": "",
-          "url": "https://doi.org/10.1016/j.eswa.2023.119786",
-          "oral": false,
-          "venue": "ESWA",
-          "authors": "Yan Zhao, Huifang Ma, Wentao Wang, Weiwei Gao, Fanyi Yang, Xiangchun He",
-          "project_url": "",
-          "code_url": "",
-          "author_names": [
-            "Yan Zhao",
-            "Huifang Ma",
-            "Wentao Wang",
-            "Weiwei Gao",
-            "Fanyi Yang",
-            "Xiangchun He"
-          ],
-          "author_source": "https://api.crossref.org/works/10.1016/j.eswa.2023.119786",
-          "doi": "10.1016/j.eswa.2023.119786"
-        },
-        {
-          "id": "cognitive-diagnosis-05",
-          "title_en": "SEEP: Semantic Enhanced Question Embeddings Pre-training for Improving Knowledge Tracing",
-          "title_zh": "SEEP：用于改进知识追踪的语义增强试题嵌入预训练",
-          "citation": "Information Sciences(INS),2022,64,153-169",
-          "year": "2022",
-          "image": "",
-          "url": "https://doi.org/10.1016/j.ins.2022.10.015",
-          "oral": false,
-          "venue": "INS",
-          "authors": "Wentao Wang, Huifang Ma, Yan Zhao, Fanyi Yang, Liang Chang",
-          "project_url": "",
-          "code_url": "",
-          "author_names": [
-            "Wentao Wang",
-            "Huifang Ma",
-            "Yan Zhao",
-            "Fanyi Yang",
-            "Liang Chang"
-          ],
-          "author_source": "https://api.crossref.org/works/10.1016/j.ins.2022.10.015",
-          "doi": "10.1016/j.ins.2022.10.015"
-        },
-        {
-          "id": "cognitive-diagnosis-06",
-          "title_en": "Tracking Knowledge Proficiency of Students with the Calibrated Q-Matrix",
-          "title_zh": "利用校准 Q 矩阵追踪学生知识掌握程度",
-          "citation": "Expert Systems with Applications(ESWA), 2022, 192: 116454",
-          "year": "2022",
-          "image": "",
-          "url": "https://doi.org/10.1016/j.eswa.2021.116454",
-          "oral": false,
-          "venue": "ESWA",
-          "authors": "Wentao Wang, Huifang Ma, Yan Zhao, Zhixin Li, Xiangchun He",
-          "project_url": "",
-          "code_url": "",
-          "author_names": [
-            "Wentao Wang",
-            "Huifang Ma",
-            "Yan Zhao",
-            "Zhixin Li",
-            "Xiangchun He"
-          ],
-          "author_source": "https://api.crossref.org/works/10.1016/j.eswa.2021.116454",
-          "doi": "10.1016/j.eswa.2021.116454"
-        }
-      ],
-      "icon": "🧠"
-    },
-    {
       "id": "bioinformatics",
       "name_zh": "生物信息建模",
-      "name_en": "Bioinformatics Modeling",
+      "name_en": "Bioinformatics",
       "papers": [
         {
           "id": "bioinformatics-01",
@@ -320,6 +174,152 @@
       "icon": "🧬"
     },
     {
+      "id": "cognitive-diagnosis",
+      "name_zh": "人工智能教育",
+      "name_en": "AI in Education",
+      "papers": [
+        {
+          "id": "cognitive-diagnosis-01",
+          "title_en": "Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing",
+          "title_zh": "面向知识追踪的多粒度集成交互图建模",
+          "citation": "Knowledge-Based Systems(KBS), 2025, 259, 112834",
+          "year": "2025",
+          "image": "",
+          "url": "https://doi.org/10.1016/j.knosys.2024.112834",
+          "oral": false,
+          "venue": "KBS",
+          "authors": "Jing Wang, Huifang Ma, Mengyuan Zhang, Lei Zhang, Liang Chang",
+          "project_url": "",
+          "code_url": "",
+          "author_names": [
+            "Jing Wang",
+            "Huifang Ma",
+            "Mengyuan Zhang",
+            "Lei Zhang",
+            "Liang Chang"
+          ],
+          "author_source": "https://api.crossref.org/works/10.1016/j.knosys.2024.112834",
+          "doi": "10.1016/j.knosys.2024.112834"
+        },
+        {
+          "id": "cognitive-diagnosis-02",
+          "title_en": "Pretraining Question Embeddings for Improving Knowledge Tracing with Self-supervised Co-contrastive Learning",
+          "title_zh": "通过自监督协同对比学习预训练试题嵌入以改进知识追踪",
+          "citation": "ACM Transactions on Knowledge Discovery from Data(TKDD), 2024,18 (4), 1-20",
+          "year": "2024",
+          "image": "",
+          "url": "https://doi.org/10.1145/3638055",
+          "oral": false,
+          "venue": "TKDD",
+          "authors": "Wentao Wang, Huifang Ma, Yan Zhao, Zhixin Li",
+          "project_url": "",
+          "code_url": "",
+          "author_names": [
+            "Wentao Wang",
+            "Huifang Ma",
+            "Yan Zhao",
+            "Zhixin Li"
+          ],
+          "author_source": "https://api.crossref.org/works/10.1145/3638055",
+          "doi": "10.1145/3638055"
+        },
+        {
+          "id": "cognitive-diagnosis-03",
+          "title_en": "Question-response Representation with Dual-level Contrastive Learning for Improving Knowledge Tracing",
+          "title_zh": "用于改进知识追踪的双层对比学习试题—作答表征",
+          "citation": "Information Sciences(INS). 2024, 631,91-107",
+          "year": "2024",
+          "image": "",
+          "url": "https://doi.org/10.1016/j.ins.2023.120032",
+          "oral": false,
+          "venue": "INS",
+          "authors": "Yan Zhao, Huifang Ma, Jing Wang, Xiangchun He, Liang Chang",
+          "project_url": "",
+          "code_url": "",
+          "author_names": [
+            "Yan Zhao",
+            "Huifang Ma",
+            "Jing Wang",
+            "Xiangchun He",
+            "Liang Chang"
+          ],
+          "author_source": "https://api.crossref.org/works/10.1016/j.ins.2023.120032",
+          "doi": "10.1016/j.ins.2023.120032"
+        },
+        {
+          "id": "cognitive-diagnosis-04",
+          "title_en": "Exploiting Multiple Question Factors for Knowledge Tracing",
+          "title_zh": "利用多种试题因素进行知识追踪",
+          "citation": "Expert Systems with Applications(ESWA).2023, 223, 119786",
+          "year": "2023",
+          "image": "",
+          "url": "https://doi.org/10.1016/j.eswa.2023.119786",
+          "oral": false,
+          "venue": "ESWA",
+          "authors": "Yan Zhao, Huifang Ma, Wentao Wang, Weiwei Gao, Fanyi Yang, Xiangchun He",
+          "project_url": "",
+          "code_url": "",
+          "author_names": [
+            "Yan Zhao",
+            "Huifang Ma",
+            "Wentao Wang",
+            "Weiwei Gao",
+            "Fanyi Yang",
+            "Xiangchun He"
+          ],
+          "author_source": "https://api.crossref.org/works/10.1016/j.eswa.2023.119786",
+          "doi": "10.1016/j.eswa.2023.119786"
+        },
+        {
+          "id": "cognitive-diagnosis-05",
+          "title_en": "SEEP: Semantic Enhanced Question Embeddings Pre-training for Improving Knowledge Tracing",
+          "title_zh": "SEEP：用于改进知识追踪的语义增强试题嵌入预训练",
+          "citation": "Information Sciences(INS),2022,64,153-169",
+          "year": "2022",
+          "image": "",
+          "url": "https://doi.org/10.1016/j.ins.2022.10.015",
+          "oral": false,
+          "venue": "INS",
+          "authors": "Wentao Wang, Huifang Ma, Yan Zhao, Fanyi Yang, Liang Chang",
+          "project_url": "",
+          "code_url": "",
+          "author_names": [
+            "Wentao Wang",
+            "Huifang Ma",
+            "Yan Zhao",
+            "Fanyi Yang",
+            "Liang Chang"
+          ],
+          "author_source": "https://api.crossref.org/works/10.1016/j.ins.2022.10.015",
+          "doi": "10.1016/j.ins.2022.10.015"
+        },
+        {
+          "id": "cognitive-diagnosis-06",
+          "title_en": "Tracking Knowledge Proficiency of Students with the Calibrated Q-Matrix",
+          "title_zh": "利用校准 Q 矩阵追踪学生知识掌握程度",
+          "citation": "Expert Systems with Applications(ESWA), 2022, 192: 116454",
+          "year": "2022",
+          "image": "",
+          "url": "https://doi.org/10.1016/j.eswa.2021.116454",
+          "oral": false,
+          "venue": "ESWA",
+          "authors": "Wentao Wang, Huifang Ma, Yan Zhao, Zhixin Li, Xiangchun He",
+          "project_url": "",
+          "code_url": "",
+          "author_names": [
+            "Wentao Wang",
+            "Huifang Ma",
+            "Yan Zhao",
+            "Zhixin Li",
+            "Xiangchun He"
+          ],
+          "author_source": "https://api.crossref.org/works/10.1016/j.eswa.2021.116454",
+          "doi": "10.1016/j.eswa.2021.116454"
+        }
+      ],
+      "icon": "🧠"
+    },
+    {
       "id": "industrial-diagnosis",
       "name_zh": "工业智能诊断",
       "name_en": "Intelligent Industrial Diagnosis",
@@ -467,8 +467,8 @@
     },
     {
       "id": "graph-modeling",
-      "name_zh": "其他图建模方向",
-      "name_en": "Other Graph Modeling Research",
+      "name_zh": "其他",
+      "name_en": "Other",
       "papers": [
         {
           "id": "graph-modeling-01",
@@ -517,6 +517,31 @@
           "doi": "10.1016/j.knosys.2026.115538"
         },
         {
+          "id": "graph-modeling-05",
+          "title_en": "Confidence-guided dual hypergraph learning for sparse-label graph classification",
+          "title_zh": "面向稀疏标签图分类的置信度引导双超图学习",
+          "citation": "Pattern Recognition, 179, 113871, 2026",
+          "year": "2026",
+          "metrics_zh": "IF 9.1 · SCIE · JCR Q1 · 中科院计算机科学 1 区 Top · EI",
+          "metrics_en": "IF 9.1 · SCIE · JCR Q1 · CAS Computer Science Q1 Top · EI",
+          "image": "",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=r4iH7uIAAAAJ&sortby=pubdate&citation_for_view=r4iH7uIAAAAJ:4hFrxpcac9AC",
+          "oral": false,
+          "venue": "Pattern Recognition",
+          "authors": "Hui Shen, Huifang Ma, Rui Bing, Jiyuan Sun, Zhixin Li",
+          "project_url": "",
+          "code_url": "",
+          "author_names": [
+            "Hui Shen",
+            "Huifang Ma",
+            "Rui Bing",
+            "Jiyuan Sun",
+            "Zhixin Li"
+          ],
+          "author_source": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=r4iH7uIAAAAJ&sortby=pubdate&citation_for_view=r4iH7uIAAAAJ:4hFrxpcac9AC",
+          "doi": "10.1016/j.patcog.2026.113871"
+        },
+        {
           "id": "graph-modeling-03",
           "title_en": "Dual-view Graph-of-Graph Representation Learning with Graph Transformer for Graph-level Anomaly Detection",
           "title_zh": "基于图 Transformer 的双视图图之图表征学习用于图级异常检测",
@@ -561,29 +586,6 @@
           ],
           "author_source": "https://api.crossref.org/works/10.1109/tgrs.2025.3627204",
           "doi": "10.1109/tgrs.2025.3627204"
-        },
-        {
-          "id": "graph-modeling-05",
-          "title_en": "Beyond Homophily: Class Imbalance Graph Classification via Rewiring Graph of Graphs",
-          "title_zh": "超越同配性：通过重连图之图实现类别不平衡图分类",
-          "citation": "Neural Networks(NeuNet), 2025, 107738",
-          "year": "2025",
-          "image": "",
-          "url": "https://doi.org/10.1016/j.neunet.2025.107738",
-          "oral": false,
-          "venue": "NeuNet",
-          "authors": "Hui Shen, Huifang Ma, Jiyuan Sun, Yuwei Gao, Zhixin Li",
-          "project_url": "",
-          "code_url": "",
-          "author_names": [
-            "Hui Shen",
-            "Huifang Ma",
-            "Jiyuan Sun",
-            "Yuwei Gao",
-            "Zhixin Li"
-          ],
-          "author_source": "https://api.crossref.org/works/10.1016/j.neunet.2025.107738",
-          "doi": "10.1016/j.neunet.2025.107738"
         },
         {
           "id": "graph-modeling-06",

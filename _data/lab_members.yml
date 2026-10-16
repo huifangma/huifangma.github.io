@@ -21,8 +21,8 @@ phd_students:
   - name_zh: "陈小红"
     name_en: "Xiaohong Chen"
     photo: "/images/students/sample-02.png"
-    research_zh: ""
-    research_en: ""
+    research_zh: "软件工程/软件缺陷预测"
+    research_en: "Software Engineering/Software Defect Prediction"
     year: ""
     homepage: ""
 masters_students:
