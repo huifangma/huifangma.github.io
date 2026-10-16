@@ -166,8 +166,8 @@
           "show_all_authors": true,
           "project_url": "",
           "code_url": "https://github.com/dengbin151/TELC-PPI",
-          "summary_en": "TELC-PPI enhances the protein interaction graph with similarity edges identified from network topology and node-label distributions, then models dependencies among interaction types through label co-occurrence-aware embeddings. Experiments across multiple datasets and data splits show improved PPI prediction.",
-          "summary_zh": "TELC-PPI 利用网络拓扑和节点标签分布识别相似蛋白并构建增强边，同时通过标签共现信息学习交互类型之间的依赖关系。在多个数据集和数据划分设置下的实验表明，该方法提升了蛋白质相互作用预测效果。",
+          "summary_en": "TELC-PPI augments the PPI graph with protein-similarity edges derived from topology and label distributions, then models interaction-type dependencies through label co-occurrence. On the Random splits of SHS27k, SHS148k, and STRING, it achieves 92.98% average micro-F1, compared with 92.47% for MAPE-PPI.",
+          "summary_zh": "TELC-PPI 根据图拓扑与节点标签分布构建蛋白相似边，并通过标签共现学习不同相互作用类型之间的依赖关系。在 SHS27k、SHS148k 和 STRING 的 Random 划分上，平均 micro-F1 达 92.98%，高于 MAPE-PPI 的 92.47%。",
           "author_names": [
             "Bin Deng",
             "Huifang Ma",
