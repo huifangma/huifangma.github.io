@@ -29,4 +29,4 @@
 - `2026/wang-danyang/` — 王丹阳 / Danyang Wang
 - `2026/zhang-zhihao/` — 张志浩 / Zhihao Zhang
 - `2026/wang-zifan/` — 王子凡 / Zifan Wang
-- `2026/wu-yanfuqiang/` — 吴彦富强 / Yanfuqiang Wu
+- `2026/wu-yanfuqiang/` — 吴彦富强 / Yanfu Wu
