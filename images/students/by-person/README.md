@@ -6,7 +6,7 @@
 
 ## 博士生
 - `phd/li-qingqing/` — 李青青 / Qingqing Li
-- `phd/li-xiaohong/` — 李晓红 / Xiaohong Li
+- `phd/chen-xiaohong/` — 陈小红 / Xiaohong Chen
 
 ## 2024 级硕士生
 - `2024/guo-shuheng/` — 郭书衡 / Shuheng Guo
