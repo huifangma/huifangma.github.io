@@ -25,6 +25,12 @@ author: zh
 在学术服务方面，我曾担任 [ACM MM](https://www.acmmm.org/) 2023–2025、[ACL](https://2023.aclweb.org/) 2021–2023、[EMNLP](https://2026.emnlp.org/) 2021–2023 等国际会议高级程序委员会委员（Senior Program Committee Member），现任 *[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)* Senior Editor。同时担任中国计算机学会人工智能与模式识别专委会执行委员、中国人工智能学会心智计算专委会委员、中国人工智能学会知识工程与分布式智能专委会青年委员。
 
 
+<span class='anchor' id='news'></span>
+
+# 🔥 最新动态
+
+- *2026.10*：2027 年预计招收**硕士研究生 6 名、博士研究生 1 名**，欢迎感兴趣的同学联系。[查看招生要求](#admissions)。
+
 
 <span class='anchor' id='projects'></span>
 
@@ -41,40 +47,11 @@ author: zh
 5. **工业4.0背景下基于深度语义特征学习的变压器设备在线智能巡检关键技术研究及应用**  
    甘肃省高等学校产业支撑计划项目 · 项目编号：2022CYZC-11 · **主持** · 2022.06–2025.08
 
-<span class='anchor' id='news'></span>
-
-# 🔥 最新动态
-
-- *2026.10*：2027 年预计招收**硕士研究生 6 名、博士研究生 1 名**，欢迎感兴趣的同学联系。[查看招生要求](#admissions)。
-
 <span class='anchor' id='publications'></span>
 
 # 📝 论文成果
 
 {% include publications.html %}
-
-<span class='anchor' id='honors'></span>
-
-# 🎖 荣誉与奖励
-- *2021.10* 示例占位文本（原文为 Lorem ipsum 排版占位文字）。
-- *2021.09* 示例占位文本（原文为 Lorem ipsum 排版占位文字）。
-
-<span class='anchor' id='education'></span>
-
-# 📖 教育经历
-- *2019.06 - 2022.04 （至今）*, 示例占位文本（原文为 Lorem ipsum 排版占位文字）。
-- *2015.09 - 2019.06*, 示例占位文本（原文为 Lorem ipsum 排版占位文字）。
-
-<span class='anchor' id='talks'></span>
-
-# 💬 受邀报告
-- *2021.06*, 示例占位文本（原文为 Lorem ipsum 排版占位文字）。
-- *2021.03*, 示例占位文本（原文为 Lorem ipsum 排版占位文字）。 \| [\[视频\]](https://github.com/)
-
-<span class='anchor' id='internships'></span>
-
-# 💻 实习经历
-- *2019.05 - 2020.02*, [示例单位](https://github.com/)，中国。
 
 <span class='anchor' id='admissions'></span>
 

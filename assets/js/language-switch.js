@@ -20,7 +20,7 @@
     const end = next ? next.getBoundingClientRect().top + window.scrollY : document.documentElement.scrollHeight;
     window.scrollTo(0, top + saved.fraction * (end - top));
   }
-  async function switchLanguage(url, push) {
+  async function switchPage(url, push, targetHash) {
     if (switching) return;
     switching = true;
     const saved = position();
@@ -54,15 +54,28 @@
       const canonical = document.querySelector('link[rel="canonical"]');
       const nextCanonical = translated.querySelector('link[rel="canonical"]');
       if (canonical && nextCanonical) canonical.href = nextCanonical.href;
-      if (push) history.pushState({ languageSwitch: true }, '', url.pathname + url.search + location.hash);
+      const nextHash = targetHash === undefined ? location.hash : targetHash;
+      if (push) history.pushState({ inPageNavigation: true }, '', url.pathname + url.search + nextHash);
       if (typeof breaks !== 'undefined') breaks.length = 0;
       if (typeof updateNav === 'function') updateNav();
       if (window.jQuery) {
         const $ = window.jQuery;
         if ($.fn.Stickyfill) $('.sticky').Stickyfill();
         if ($.fn.fitVids) $('#main').fitVids();
+        if ($.fn.smoothScroll) $('a').smoothScroll({ offset: -20 });
       }
-      restore(saved);
+      if (targetHash !== undefined) {
+        const behavior = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+        if (targetHash) {
+          const targetId = decodeURIComponent(targetHash.slice(1));
+          const target = document.getElementById(targetId);
+          if (target) target.scrollIntoView({ behavior: behavior });
+        } else {
+          window.scrollTo({ top: 0, behavior: behavior });
+        }
+      } else {
+        restore(saved);
+      }
       window.dispatchEvent(new Event('resize'));
     } catch (error) {
       location.assign(url.href);
@@ -74,9 +87,18 @@
     const link = event.target.closest('.language-switch a');
     if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
-    switchLanguage(new URL(link.href), true);
+    switchPage(new URL(link.href), true);
+  }, true);
+  document.addEventListener('click', function (event) {
+    const link = event.target.closest('#site-nav a[href]');
+    if (!link || link.closest('.language-switch') || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    const url = new URL(link.href, location.href);
+    if (url.origin !== location.origin || url.pathname === location.pathname) return;
+    event.preventDefault();
+    switchPage(url, true, url.hash || '');
   }, true);
   window.addEventListener('popstate', function () {
-    switchLanguage(new URL(location.href), false);
+    const url = new URL(location.href);
+    switchPage(url, false, url.hash);
   });
 })();

@@ -8,7 +8,13 @@
     {% if paper.image != empty %}
     <div id="{{ paper.id }}" class="paper-box publication-featured">
       <div class="paper-box-image"><div class="publication-image-wrap"><div class="badge">{{ paper.venue | escape }} {{ paper.year }}</div><img src="{{ paper.image | relative_url }}" alt="{% if is_english %}Framework of {{ paper.title_en | escape }}{% else %}{{ paper.title_zh | escape }}的框架图{% endif %}" loading="lazy"></div></div>
-      <div class="paper-box-text">{% include publication-entry.html %}</div>
+      <div class="paper-box-text">
+        {% include publication-entry.html %}
+        {% assign paper_summary = paper.summary_en %}
+        {% unless is_english %}{% assign paper_summary = paper.summary_zh %}{% endunless %}
+        {% if paper_summary != empty %}<ul class="publication-summary"><li>{{ paper_summary | escape }}</li></ul>{% endif %}
+        {% if paper.paper_url != empty or paper.code_url != empty %}<p class="publication-resource-links">{% if paper.paper_url != empty %}<a href="{{ paper.paper_url | escape }}" target="_blank" rel="noopener">{% if is_english %}[Paper]{% else %}[论文]{% endif %}</a>{% endif %}{% if paper.code_url != empty %}{% if paper.paper_url != empty %} {% endif %}<a href="{{ paper.code_url | escape }}" target="_blank" rel="noopener">{% if is_english %}[Code]{% else %}[代码]{% endif %}</a>{% endif %}</p>{% endif %}
+      </div>
     </div>
     {% endif %}
     {% endfor %}

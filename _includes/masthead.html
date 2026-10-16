@@ -15,9 +15,13 @@
           {% endif %}
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_url | relative_url }}">{{ home_label }}</a></li>
           {% if page.lang == "en" %}
-            <li class="masthead__menu-item language-switch"><a href="{{ '/zh/' | relative_url }}" lang="zh-CN">CN</a></li>
+            {% assign language_url = "/zh/" %}
+            {% if page.lang_switch_url %}{% assign language_url = page.lang_switch_url %}{% endif %}
+            <li class="masthead__menu-item language-switch"><a href="{{ language_url | relative_url }}" lang="zh-CN">CN</a></li>
           {% else %}
-            <li class="masthead__menu-item language-switch"><a href="{{ '/' | relative_url }}" lang="en">EN</a></li>
+            {% assign language_url = "/" %}
+            {% if page.lang_switch_url %}{% assign language_url = page.lang_switch_url %}{% endif %}
+            <li class="masthead__menu-item language-switch"><a href="{{ language_url | relative_url }}" lang="en">EN</a></li>
           {% endif %}
           {% for link in nav_links %}
             <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>

@@ -29,6 +29,12 @@ My research interests focus on **intelligent computing for graph data** and its 
 In academic service, I have served as a Senior Program Committee Member for international conferences including [ACM MM](https://www.acmmm.org/) 2023–2025, [ACL](https://2023.aclweb.org/) 2021–2023, and [EMNLP](https://2026.emnlp.org/) 2021–2023. I currently serve as a Senior Editor of *[Expert Systems with Applications](https://www.sciencedirect.com/journal/expert-systems-with-applications)*. I also serve as an Executive Committee Member of the Technical Committee on Artificial Intelligence and Pattern Recognition of the China Computer Federation, a Member of the Technical Committee on Mind Computation of the Chinese Association for Artificial Intelligence, and a Youth Member of its Technical Committee on Knowledge Engineering and Distributed Intelligence.
 
 
+<span class='anchor' id='news'></span>
+
+# 🔥 News
+
+- *Oct. 2026*: For the 2027 intake, I expect to recruit **6 master's students and 1 Ph.D. student**. Interested students are welcome to get in touch. [View admissions information](#admissions).
+
 
 <span class='anchor' id='projects'></span>
 
@@ -45,40 +51,11 @@ In academic service, I have served as a Senior Program Committee Member for inte
 5. **Research and Application of Key Technologies for Online Intelligent Inspection of Transformer Equipment Based on Deep Semantic Feature Learning in Industry 4.0**  
    Industrial Support Program for Higher Education Institutions in Gansu Province · Grant No. 2022CYZC-11 · **Principal Investigator** · 2022.06–2025.08
 
-<span class='anchor' id='news'></span>
-
-# 🔥 News
-
-- *Oct. 2026*: For the 2027 intake, I expect to recruit **6 master's students and 1 Ph.D. student**. Interested students are welcome to get in touch. [View admissions information](#admissions).
-
 <span class='anchor' id='publications'></span>
 
 # 📝 Publications
 
 {% include publications.html %}
-
-<span class='anchor' id='honors'></span>
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-<span class='anchor' id='education'></span>
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-<span class='anchor' id='talks'></span>
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-<span class='anchor' id='internships'></span>
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
 
 <span class='anchor' id='admissions'></span>
 
