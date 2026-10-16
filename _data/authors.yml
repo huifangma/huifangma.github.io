@@ -1,6 +1,6 @@
 zh:
   name: "马慧芳"
-  avatar: "/images/android-chrome-512x512.png"
+  avatar: "/images/huifang-ma.jpg"
   bio: "教授 · 智能数据与科学计算实验室"
   description: "西北师范大学人工智能与计算机学院"
   location: "中国 · 兰州"
@@ -8,7 +8,7 @@ zh:
 
 en:
   name: "Huifang Ma"
-  avatar: "/images/android-chrome-512x512.png"
+  avatar: "/images/huifang-ma.jpg"
   bio: "Professor · Intelligent Data and Scientific Computing Lab"
   description: "College of Artificial Intelligence and Computer Science, Northwest Normal University"
   location: "Lanzhou, China"
