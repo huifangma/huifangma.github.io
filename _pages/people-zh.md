@@ -1,7 +1,7 @@
 ---
 permalink: /zh/people/
 title: "实验室人员"
-excerpt: "西北师范大学智能数据与科学计算实验室成员介绍。"
+excerpt: "西北师范大学智图实验室成员介绍。"
 author_profile: true
 author: zh
 lang: zh-CN
@@ -9,10 +9,9 @@ lang_switch_url: /people/
 ---
 
 <div class="lab-members-page">
-  <p class="lab-members-kicker">智能数据与科学计算实验室</p>
+  <p class="lab-members-kicker">智图实验室 · GIL Lab</p>
   <h1>实验室人员</h1>
   <p class="lab-members-intro">课题组围绕图数据智能计算开展研究，并探索其在科学、教育与工业领域的应用。</p>
-  <p class="lab-members-photo-note">已提供本人照片的成员显示真实照片，其余头像为虚拟示例。</p>
 
   <section class="lab-members-section" aria-labelledby="faculty-heading">
     <h2 id="faculty-heading">🧭 课题组教师</h2>

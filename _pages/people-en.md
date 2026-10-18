@@ -1,7 +1,7 @@
 ---
 permalink: /people/
 title: "Lab Members"
-excerpt: "Meet the Intelligent Data and Scientific Computing Lab at Northwest Normal University."
+excerpt: "Meet the Graph Intelligence Lab (GIL Lab) at Northwest Normal University."
 author_profile: true
 author: en
 lang: en
@@ -9,10 +9,9 @@ lang_switch_url: /zh/people/
 ---
 
 <div class="lab-members-page">
-  <p class="lab-members-kicker">INTELLIGENT DATA AND SCIENTIFIC COMPUTING LAB</p>
+  <p class="lab-members-kicker">GRAPH INTELLIGENCE LAB · GIL LAB</p>
   <h1>Lab Members</h1>
   <p class="lab-members-intro">We study intelligent computing for graph data and its applications in science, education, and industry.</p>
-  <p class="lab-members-photo-note">Members with provided portraits show their photos; the remaining portraits are virtual examples.</p>
 
   <section class="lab-members-section" aria-labelledby="faculty-heading">
     <h2 id="faculty-heading">🧭 Faculty</h2>

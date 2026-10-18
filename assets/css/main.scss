@@ -147,13 +147,16 @@ html { scroll-behavior: smooth; }
   .publication-title { color: #224b8d; text-decoration: underline; font-weight: 500; }
   .publication-oral { color: #e00000; }
   .publication-badge { display: inline-block; padding: 0 .35em; background: #00369f; color: white; font-size: .65em; font-weight: 700; line-height: 1.4; vertical-align: .12em; white-space: nowrap; }
-  .publication-metrics { display: inline-block; margin-left: .35em; padding: 0 .4em; border-radius: .25em; background: #eef2f7; color: #46566d; font-size: .75em; line-height: 1.6; }
+  .publication-badge-top { background: #c83232 !important; }
+  .publication-badge-second { background: #2869ad !important; }
   .publication-featured {
     margin-bottom: 1em;
     .publication-image-wrap { position: relative; width: 100%; }
     .paper-box-image img { width: 100%; height: auto; object-fit: contain; box-shadow: 3px 3px 6px #888; }
     .paper-box-text { line-height: 1.7; }
     .badge { z-index: 1; }
+    .badge.publication-badge-top { background-color: #c83232; }
+    .badge.publication-badge-second { background-color: #2869ad; }
     .publication-summary { margin: .55em 0; padding-left: 1.25em; color: #50575d; font-size: .88em; line-height: 1.65; }
     .publication-resource-links { margin: .4em 0 0; font-weight: 600; }
     .publication-resource-links a { margin-right: .45em; }

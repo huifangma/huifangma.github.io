@@ -1,7 +1,7 @@
 zh:
   name: "马慧芳"
   avatar: "/images/huifang-ma.jpg"
-  bio: "教授 · 智能数据与科学计算实验室"
+  bio: "教授 · 智图实验室"
   description: "西北师范大学人工智能与计算机学院"
   location: "中国 · 兰州"
   googlescholar: "https://scholar.google.com/citations?user=r4iH7uIAAAAJ&hl=zh-CN&oi=sra"
@@ -9,7 +9,7 @@ zh:
 en:
   name: "Huifang Ma"
   avatar: "/images/huifang-ma.jpg"
-  bio: "Professor · Intelligent Data and Scientific Computing Lab"
+  bio: "Professor · Graph Intelligence Lab (GIL Lab)"
   description: "College of Artificial Intelligence and Computer Science, Northwest Normal University"
   location: "Lanzhou, China"
   googlescholar: "https://scholar.google.com/citations?user=r4iH7uIAAAAJ&hl=en"
