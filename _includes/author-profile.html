@@ -112,7 +112,10 @@
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>
       {% endif %}
       {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+        <li><a href="{{ author.orcid }}" target="_blank" rel="noopener"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+      {% endif %}
+      {% if author.scholat %}
+        <li><a href="{{ author.scholat }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-link" aria-hidden="true"></i> {% if page.lang == "en" %}Scholars Online{% else %}学者网{% endif %}</a></li>
       {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw"></i> Impactstory</a></li>
