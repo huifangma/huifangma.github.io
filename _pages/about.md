@@ -26,7 +26,14 @@ author: zh
 # 🔥 最新动态
 
 - *2026.10*：2027 年预计招收**硕士研究生 6 名、博士研究生 1 名**，欢迎感兴趣的同学联系。[查看招生要求](#admissions)。
+- *2026.10*：张瑞佳同学获国家奖学金，孙济源同学获一等学业奖学金。祝贺两位同学！
 
+
+<span class='anchor' id='publications'></span>
+
+# 📝 论文成果
+
+{% include publications.html %}
 
 <span class='anchor' id='projects'></span>
 
@@ -42,12 +49,6 @@ author: zh
    甘肃省自然科学基金重点项目 · 项目编号：24JRRA123 · **主持** · 2024.06–2027.06
 5. **工业4.0背景下基于深度语义特征学习的变压器设备在线智能巡检关键技术研究及应用**  
    甘肃省高等学校产业支撑计划项目 · 项目编号：2022CYZC-11 · **主持** · 2022.06–2025.08
-
-<span class='anchor' id='publications'></span>
-
-# 📝 论文成果
-
-{% include publications.html %}
 
 <span class='anchor' id='admissions'></span>
 

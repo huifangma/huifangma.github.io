@@ -30,7 +30,14 @@ I am Huifang Ma, a Professor and Ph.D. Supervisor at the <a href="https://jsj.nw
 # 🔥 News
 
 - *Oct. 2026*: For the 2027 intake, I expect to recruit **6 master's students and 1 Ph.D. student**. Interested students are welcome to get in touch. [View admissions information](#admissions).
+- *Oct. 2026*: Ruijia Zhang received the National Scholarship, and Jiyuan Sun received the First-Class Academic Scholarship. Congratulations to both students!
 
+
+<span class='anchor' id='publications'></span>
+
+# 📝 Publications
+
+{% include publications.html %}
 
 <span class='anchor' id='projects'></span>
 
@@ -46,12 +53,6 @@ I am Huifang Ma, a Professor and Ph.D. Supervisor at the <a href="https://jsj.nw
    Key Project of the Natural Science Foundation of Gansu Province · Grant No. 24JRRA123 · **Principal Investigator** · 2024.06–2027.06
 5. **Research and Application of Key Technologies for Online Intelligent Inspection of Transformer Equipment Based on Deep Semantic Feature Learning in Industry 4.0**  
    Industrial Support Program for Higher Education Institutions in Gansu Province · Grant No. 2022CYZC-11 · **Principal Investigator** · 2022.06–2025.08
-
-<span class='anchor' id='publications'></span>
-
-# 📝 Publications
-
-{% include publications.html %}
 
 <span class='anchor' id='admissions'></span>
 
