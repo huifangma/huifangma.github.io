@@ -11,6 +11,8 @@ en:
     url: "/#admissions"
   - title: "Lab Members"
     url: "/people/"
+  - title: "Gallery"
+    url: "/gallery/"
 zh:
   - title: "个人简介"
     url: "/zh/#about-me"
@@ -24,3 +26,5 @@ zh:
     url: "/zh/#admissions"
   - title: "实验室人员"
     url: "/zh/people/"
+  - title: "实验室相册"
+    url: "/zh/gallery/"

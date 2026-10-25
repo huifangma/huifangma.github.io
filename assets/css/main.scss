@@ -174,6 +174,33 @@ html { scroll-behavior: smooth; }
   box-shadow: none;
 }
 /* Lab member directory */
+.lab-gallery-page {
+  .lab-gallery-kicker { margin: 0 0 .35em; color: #62766f; font-size: .72em; font-weight: 700; letter-spacing: .08em; }
+  > h1 { margin: 0 0 .25em; }
+  .lab-gallery-intro { margin: 0 0 2em; color: #626a70; font-size: 1em; line-height: 1.7; }
+}
+.lab-gallery-section { margin: 2.2em 0 2.8em; }
+.lab-gallery-section h2 { margin: 0 0 1em; padding-bottom: .5em; border-bottom: 1px solid #e2e6e3; font-size: 1.18em; }
+.lab-gallery-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.1em; }
+.lab-gallery-grid--academic { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.lab-gallery-grid--daily { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+.lab-gallery-grid figure { min-width: 0; margin: 0; }
+.lab-gallery-grid a { display: block; }
+.lab-gallery-grid img { display: block; width: 100%; height: 170px; margin: 0; border: 0; border-radius: 3px; object-fit: cover; box-shadow: none; }
+.lab-gallery-grid--graduation figure:first-child { grid-column: span 2; grid-row: span 2; }
+.lab-gallery-grid--graduation figure:first-child img { height: 380px; }
+.lab-gallery-grid--academic img { height: 270px; }
+.lab-gallery-grid--daily img { height: 320px; }
+.lab-gallery-grid figcaption { margin-top: .45em; color: #6d7771; font-size: .77em; line-height: 1.5; }
+@media (max-width: 700px) {
+  .lab-gallery-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lab-gallery-grid--graduation figure:first-child { grid-column: span 2; grid-row: auto; }
+  .lab-gallery-grid--graduation figure:first-child img { height: auto; }
+  .lab-gallery-grid--academic, .lab-gallery-grid--daily { grid-template-columns: 1fr; }
+  .lab-gallery-grid--academic img, .lab-gallery-grid--daily img { height: auto; }
+}
+
+/* Lab member directory */
 .lab-members-page {
   max-width: 100%;
   margin: 0;
