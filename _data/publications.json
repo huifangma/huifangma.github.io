@@ -13,7 +13,7 @@
           "year": "2026",
           "image": "/images/publications/telc-ppi-aaai-2026.png",
           "url": "https://doi.org/10.1609/aaai.v40i1.36980",
-          "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/download/36980/40942",
+          "paper_url": "/files/papers/bioinformatics-01.pdf",
           "oral": true,
           "venue": "AAAI",
           "rank": "CCF-A",
@@ -33,6 +33,7 @@
         },
         {
           "id": "bioinformatics-02",
+          "paper_url": "/files/papers/bioinformatics-02.pdf",
           "title_en": "Dual-channel Hierarchical Interactive Learning for the Prediction of Protein-Ligand Binding Affinity",
           "title_zh": "用于蛋白质—配体结合亲和力预测的双通道分层交互学习",
           "citation": "Neural Networks(NeuNet), 2026, 107982",
@@ -56,6 +57,7 @@
         },
         {
           "id": "bioinformatics-03",
+          "paper_url": "/files/papers/bioinformatics-03.pdf",
           "title_en": "DAISY: Dual-granularity Contrastive Learning for Disease Similarity Prediction",
           "title_zh": "DAISY：用于疾病相似性预测的双粒度对比学习",
           "citation": "IEEE Transactions on Computational Biology and Bioinformatics(TCBB), 2025, 22(2): 757-768",
@@ -126,6 +128,7 @@
         },
         {
           "id": "bioinformatics-06",
+          "paper_url": "/files/papers/bioinformatics-06.pdf",
           "title_en": "Co-guided Dual-channel Graph Neural Networks for the Prediction of Compound-Protein Interaction",
           "title_zh": "用于化合物—蛋白质相互作用预测的协同引导双通道图神经网络",
           "citation": "Applied Soft Computing(ASOC), 2024, 144, 111875",
@@ -149,6 +152,7 @@
         },
         {
           "id": "bioinformatics-07",
+          "paper_url": "/files/papers/bioinformatics-07.pdf",
           "title_en": "Similarity Measures based Graph Co-contrastive Learning for Drug-disease Association Prediction",
           "title_zh": "基于相似性度量的图协同对比学习用于药物—疾病关联预测",
           "citation": "Bioinformatics, 2023, 39 (6), btad357",
@@ -181,6 +185,7 @@
       "papers": [
         {
           "id": "cognitive-diagnosis-01",
+          "paper_url": "/files/papers/cognitive-diagnosis-01.pdf",
           "title_en": "Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing",
           "title_zh": "面向知识追踪的多粒度集成交互图建模",
           "citation": "Knowledge-Based Systems(KBS), 2025, 259, 112834",
@@ -204,6 +209,7 @@
         },
         {
           "id": "cognitive-diagnosis-02",
+          "paper_url": "/files/papers/cognitive-diagnosis-02.pdf",
           "title_en": "Pretraining Question Embeddings for Improving Knowledge Tracing with Self-supervised Co-contrastive Learning",
           "title_zh": "通过自监督协同对比学习预训练试题嵌入以改进知识追踪",
           "citation": "ACM Transactions on Knowledge Discovery from Data(TKDD), 2024,18 (4), 1-20",
@@ -226,6 +232,7 @@
         },
         {
           "id": "cognitive-diagnosis-03",
+          "paper_url": "/files/papers/cognitive-diagnosis-03.pdf",
           "title_en": "Question-response Representation with Dual-level Contrastive Learning for Improving Knowledge Tracing",
           "title_zh": "用于改进知识追踪的双层对比学习试题—作答表征",
           "citation": "Information Sciences(INS). 2024, 631,91-107",
@@ -274,6 +281,7 @@
         },
         {
           "id": "cognitive-diagnosis-05",
+          "paper_url": "/files/papers/cognitive-diagnosis-05.pdf",
           "title_en": "SEEP: Semantic Enhanced Question Embeddings Pre-training for Improving Knowledge Tracing",
           "title_zh": "SEEP：用于改进知识追踪的语义增强试题嵌入预训练",
           "citation": "Information Sciences(INS),2022,64,153-169",
@@ -297,6 +305,7 @@
         },
         {
           "id": "cognitive-diagnosis-06",
+          "paper_url": "/files/papers/cognitive-diagnosis-06.pdf",
           "title_en": "Tracking Knowledge Proficiency of Students with the Calibrated Q-Matrix",
           "title_zh": "利用校准 Q 矩阵追踪学生知识掌握程度",
           "citation": "Expert Systems with Applications(ESWA), 2022, 192: 116454",
@@ -352,6 +361,7 @@
         },
         {
           "id": "industrial-diagnosis-01",
+          "paper_url": "/files/papers/industrial-diagnosis-01.pdf",
           "title_en": "DAWN: Dimension-Aware Graph Contrastive Learning for Few-Shot Dissolved Gas Analysis",
           "title_zh": "DAWN：用于小样本溶解气体分析的维度感知图对比学习",
           "citation": "Expert Systems with Applications(ESWA), 2026, 312, 131504",
@@ -376,6 +386,7 @@
         },
         {
           "id": "industrial-diagnosis-02",
+          "paper_url": "/files/papers/industrial-diagnosis-02.pdf",
           "title_en": "Dual-channel Graph Ranking Contrastive Learning for Dissolved Gas Analysis",
           "title_zh": "用于溶解气体分析的双通道图排序对比学习",
           "citation": "IEEE Transactions on Industrial Informatics (TII), 2025, 21(8): 5933-5942",
@@ -384,6 +395,7 @@
           "url": "https://doi.org/10.1109/tii.2025.3556071",
           "oral": false,
           "venue": "TII",
+          "rank": "Q1",
           "authors": "Yingyue Zhang, Huifang Ma, Di Zhang, Ke Shu, Xiaolong Li",
           "project_url": "",
           "code_url": "",
@@ -423,6 +435,7 @@
         },
         {
           "id": "industrial-diagnosis-04",
+          "paper_url": "/files/papers/industrial-diagnosis-04.pdf",
           "title_en": "Graph-enhanced Fault Hierarchical Perception for Dissolved Gas Analysis in Power Transformer",
           "title_zh": "面向电力变压器溶解气体分析的图增强故障层次感知",
           "citation": "Engineering Applications of Artificial Intelligence(EAAI), 2025, 136, 108966",
@@ -447,6 +460,7 @@
         },
         {
           "id": "industrial-diagnosis-05",
+          "paper_url": "/files/papers/industrial-diagnosis-05.pdf",
           "title_en": "GraphSmin: Imbalanced Dissolved Gas Analysis with Contrastive Dual-channel Graph Filters",
           "title_zh": "GraphSmin：利用对比式双通道图滤波器进行不平衡溶解气体分析",
           "citation": "Advanced Engineering Informatics(ADVEI) , 2024, 62, 102839",
@@ -478,6 +492,7 @@
       "papers": [
         {
           "id": "graph-modeling-01",
+          "paper_url": "/files/papers/graph-modeling-01.pdf",
           "title_en": "Feature Structure Co-optimized Augmented Network for Graph Anomaly Detection",
           "title_zh": "用于图异常检测的特征与结构协同优化增强网络",
           "citation": "Information Processing and Management(IPM), 2026, 63, 104661",
@@ -502,6 +517,7 @@
         },
         {
           "id": "graph-modeling-02",
+          "paper_url": "/files/papers/graph-modeling-02.pdf",
           "title_en": "Balanced Poisoning: A Stealthy Backdoor Attack for Node Classification in Imbalanced Graph Data",
           "title_zh": "平衡投毒：针对不平衡图数据节点分类的隐蔽后门攻击",
           "citation": "Knowledge-Based Systems(KBS), 2026, 339, 115538",
@@ -526,6 +542,7 @@
         },
         {
           "id": "graph-modeling-05",
+          "paper_url": "/files/papers/graph-modeling-05.pdf",
           "title_en": "Confidence-guided dual hypergraph learning for sparse-label graph classification",
           "title_zh": "面向稀疏标签图分类的置信度引导双超图学习",
           "citation": "Pattern Recognition, 179, 113871, 2026",
@@ -550,6 +567,7 @@
         },
         {
           "id": "graph-modeling-03",
+          "paper_url": "/files/papers/graph-modeling-03.pdf",
           "title_en": "Dual-view Graph-of-Graph Representation Learning with Graph Transformer for Graph-level Anomaly Detection",
           "title_zh": "基于图 Transformer 的双视图图之图表征学习用于图级异常检测",
           "citation": "Neural Networks(NeuNet), 2025, 187, 107291",
@@ -573,6 +591,7 @@
         },
         {
           "id": "graph-modeling-04",
+          "paper_url": "/files/papers/graph-modeling-04.pdf",
           "title_en": "Dual-Graph Knowledge Distillation Meets Multi-Scale CNN: A Novel Ensemble Approach for Few-shot Hyperspectral Image Classification",
           "title_zh": "双图知识蒸馏与多尺度 CNN 融合：面向小样本高光谱图像分类的新型集成方法",
           "citation": "IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2025,",
@@ -597,6 +616,7 @@
         },
         {
           "id": "graph-modeling-06",
+          "paper_url": "/files/papers/graph-modeling-06.pdf",
           "title_en": "Crucial rather than random: Attacking Crucial Substructure for Backdoor Attacks on Graph Neural Networks",
           "title_zh": "关键而非随机：攻击关键子结构以实现图神经网络后门攻击",
           "citation": "Engineering Applications of Artificial Intelligence(EAAI), 2024, 136, 108966",

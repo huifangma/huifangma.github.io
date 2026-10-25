@@ -51,7 +51,7 @@ I am Huifang Ma, a Professor and Ph.D. Supervisor at the <a href="https://jsj.nw
    National Natural Science Foundation of China · Grant No. 61762078 · **Principal Investigator** · 2018.01–2021.12
 4. **Key Technologies for Explainable Drug–Target Interaction Prediction Based on Heterogeneous Graph Modeling**  
    Key Project of the Natural Science Foundation of Gansu Province · Grant No. 24JRRA123 · **Principal Investigator** · 2024.06–2027.06
-5. **Research and Application of Key Technologies for Online Intelligent Inspection of Transformer Equipment Based on Deep Semantic Feature Learning in Industry 4.0**  
+5. <strong>Research and Application of Key Technologies for Online Intelligent Inspection of Transformer Equipment<br>Based on Deep Semantic Feature Learning in Industry 4.0</strong><br>
    Industrial Support Program for Higher Education Institutions in Gansu Province · Grant No. 2022CYZC-11 · **Principal Investigator** · 2022.06–2025.08
 
 <span class='anchor' id='admissions'></span>
