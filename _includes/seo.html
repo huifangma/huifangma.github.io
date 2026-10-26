@@ -8,11 +8,20 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ site.title }} - Homepage</title>
+{% if page.lang == 'en' and page.url == '/' %}
+  {% assign seo_title = 'Huifang Ma | Northwest Normal University' %}
+{% elsif page.lang == 'zh-CN' and page.url == '/zh/' %}
+  {% assign seo_title = '马慧芳 | 西北师范大学' %}
+{% else %}
+  {% if page.lang == 'en' %}{% assign seo_site_title = 'Huifang Ma' %}{% else %}{% assign seo_site_title = '马慧芳' %}{% endif %}
+  {% capture seo_title %}{{ page.title }} | {{ seo_site_title }}{% endcapture %}
+{% endif %}
+<title>{{ seo_title | strip | escape }}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+  <meta name="description" content="{{ seo_description }}">
 {% endif %}
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
@@ -29,13 +38,20 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
+<meta property="og:locale" content="{% if page.lang == 'zh-CN' %}zh_CN{% else %}en_US{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ site.title }}">
+<meta property="og:title" content="{{ seo_title | strip | escape }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+  {% if page.lang == 'en' %}
+    <link rel="alternate" hreflang="en" href="{{ page.url | prepend: seo_url }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.lang_switch_url | default: '/zh/' | prepend: seo_url }}">
+  {% elsif page.lang == 'zh-CN' %}
+    <link rel="alternate" hreflang="zh-CN" href="{{ page.url | prepend: seo_url }}">
+    <link rel="alternate" hreflang="en" href="{{ page.lang_switch_url | default: '/' | prepend: seo_url }}">
+  {% endif %}
 {% endif %}
 
 {% if page.excerpt %}

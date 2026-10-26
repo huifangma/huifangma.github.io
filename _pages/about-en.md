@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
+description: "Huifang Ma is a Professor and Ph.D. Supervisor at Northwest Normal University. Her research focuses on graph data intelligence, bioinformatics, AI in education, and industrial diagnosis."
 author_profile: true
 lang: en
 author: en

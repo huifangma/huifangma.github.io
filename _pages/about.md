@@ -2,6 +2,7 @@
 permalink: /zh/
 title: ""
 excerpt: ""
+description: "马慧芳，西北师范大学人工智能与计算机学院教授、博士生导师，研究方向包括图数据智能计算、生物信息学、人工智能教育和工业智能诊断。"
 author_profile: true
 lang: zh-CN
 author: zh
