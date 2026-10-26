@@ -49,3 +49,4 @@ lang_switch_url: /zh/gallery/
     </div>
   </section>
 </div>
+{% include lab-gallery-lightbox.html title="Photo preview" close="Close photo" %}

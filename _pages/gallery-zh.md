@@ -49,3 +49,4 @@ lang_switch_url: /gallery/
     </div>
   </section>
 </div>
+{% include lab-gallery-lightbox.html title="照片预览" close="关闭照片" %}
