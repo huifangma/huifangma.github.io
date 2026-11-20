@@ -21,6 +21,15 @@ graduation:
     zh: 毕业生合影
     en: Graduates on campus
 academic:
+  - file: pricai-2026-group.jpg
+    zh: PRICAI 2026 会议合影
+    en: Group photo at PRICAI 2026
+  - file: research-presentation-01.jpg
+    zh: 学术报告
+    en: Research presentation
+  - file: research-presentation-02.jpg
+    zh: 学术报告现场
+    en: At a research presentation
   - file: fd7c304483026fee42f1baf5d8fa7e10.jpg
     zh: 学术会议合影
     en: At an academic conference
@@ -30,10 +39,14 @@ academic:
   - file: fe2bc1a70d73cd526513a4bf764013aa.jpg
     zh: 论文海报展示
     en: Research poster presentation
+    fit: contain
   - file: 7fe1e2a5ae65168b50f4e51409e727b9.jpg
     zh: 会议现场
     en: Conference gathering
 daily:
+  - file: lab-group-nov-2026.jpg
+    zh: 成员合影
+    en: Lab members together
   - file: cfcc039273c3432fd19aea38b71ff498.jpg
     zh: 实验室日常
     en: Lab life

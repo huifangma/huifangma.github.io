@@ -17,7 +17,7 @@ lang_switch_url: /zh/gallery/
     <h2 id="gallery-graduation">Graduation</h2>
     <div class="lab-gallery-grid lab-gallery-grid--graduation">
       {% for photo in site.data.lab_gallery.graduation %}
-      <figure>
+      <figure{% if photo.fit == 'contain' %} class="lab-gallery-photo--contain"{% endif %}>
         <a href="{{ '/images/lab-gallery/' | append: photo.file | relative_url }}"><img src="{{ '/images/lab-gallery/' | append: photo.file | relative_url }}" alt="{{ photo.en }}" loading="lazy" decoding="async"></a>
         <figcaption>{{ photo.en }}</figcaption>
       </figure>
@@ -29,7 +29,7 @@ lang_switch_url: /zh/gallery/
     <h2 id="gallery-academic">Academic Events</h2>
     <div class="lab-gallery-grid lab-gallery-grid--academic">
       {% for photo in site.data.lab_gallery.academic %}
-      <figure>
+      <figure{% if photo.fit == 'contain' %} class="lab-gallery-photo--contain"{% endif %}>
         <a href="{{ '/images/lab-gallery/' | append: photo.file | relative_url }}"><img src="{{ '/images/lab-gallery/' | append: photo.file | relative_url }}" alt="{{ photo.en }}" loading="lazy" decoding="async"></a>
         <figcaption>{{ photo.en }}</figcaption>
       </figure>
@@ -41,7 +41,7 @@ lang_switch_url: /zh/gallery/
     <h2 id="gallery-daily">Lab Life</h2>
     <div class="lab-gallery-grid lab-gallery-grid--daily">
       {% for photo in site.data.lab_gallery.daily %}
-      <figure>
+      <figure{% if photo.fit == 'contain' %} class="lab-gallery-photo--contain"{% endif %}>
         <a href="{{ '/images/lab-gallery/' | append: photo.file | relative_url }}"><img src="{{ '/images/lab-gallery/' | append: photo.file | relative_url }}" alt="{{ photo.en }}" loading="lazy" decoding="async"></a>
         <figcaption>{{ photo.en }}</figcaption>
       </figure>
